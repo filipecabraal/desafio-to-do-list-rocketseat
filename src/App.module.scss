@@ -1,0 +1,21 @@
+@import './styles/colors.scss';
+
+.wrap {
+    display: grid;
+    justify-content: center;
+
+    form {
+        margin-top: -1.75rem;
+
+        input {
+            width: 39.875rem;
+            margin-right: 8px;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 1rem;
+            border: 1px solid $gray-700;
+            background-color: $gray-500;
+        }
+    }
+}
+
